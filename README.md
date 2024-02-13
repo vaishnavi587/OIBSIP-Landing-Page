@@ -16,7 +16,7 @@ Explore Vista is a simple web application designed to showcase various travel de
 
 To start exploring Explore Vista, follow these steps:
 
-1. **Visit the Website**: Go to the Explore Vista website hosted at [www.explorevista.com](https://www.explorevista.com).
+1. **Visit the Website**: Go to the Explore Vista website hosted at [https://vaishnavi587.github.io/OIBSIP-Landing-Page/].
    
 2. **Browse Destinations**: Explore the showcased destinations by clicking on their respective cards.
    
