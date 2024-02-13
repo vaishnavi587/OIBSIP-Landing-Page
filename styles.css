@@ -121,7 +121,6 @@ nav ul li a:hover {
   background: #ffcc00;
 }
 
-
 /* Additional Styles */
 
 .location-cards {
@@ -167,6 +166,12 @@ nav ul li a:hover {
   gap: 20px;
   padding: 100px 0;
 }
+@media (max-width: 768px) {
+  /* Responsive layout for smaller screens */
+  .our-services {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+}
 #services-heading {
   margin-left: 100px; /* Adjust the value as needed */
 }
@@ -174,7 +179,11 @@ nav ul li a:hover {
 .service {
   text-align: center;
 }
-
+@media (max-width: 768px) {
+  .service {
+    margin-bottom: 20px;
+  }
+}
 .service img {
   width: 500px; /* Adjust image width */
   height: 300px; /* Adjust image height */
@@ -183,24 +192,33 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: -20px;
 }
-.service h2{
+@media (max-width: 768px) {
+  .service img {
+    width: 100%;
+    height: auto;
+  }
+}
+.service h2 {
   font-weight: bolder;
   margin-top: 20px;
 }
-
+@media (max-width: 768px) {
+  .service h2 {
+    font-size: 2rem;
+  }
+}
 .service p {
   font-family: Arial, sans-serif;
   text-align: justify;
   margin-top: 10px;
   margin-left: 50px;
 }
-
 @media (max-width: 768px) {
-  /* Responsive layout for smaller screens */
-  .our-services {
-    grid-template-columns: 1fr; /* Single column on smaller screens */
+  .service p {
+    margin-left: 0px;
   }
 }
+
 #tours {
   padding: 50px 0;
   background-color: #f9f9f9;
@@ -216,13 +234,11 @@ nav ul li a:hover {
 .tours-container h2 {
   font-size: 32px;
   margin-bottom: 30px;
-  
 }
 
 .tour {
   display: flex;
   margin-bottom: 40px;
-  
 }
 
 .left {
@@ -280,7 +296,11 @@ nav ul li a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
-
+@media (min-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .about-text {
   display: flex;
   flex-direction: column;
@@ -301,6 +321,11 @@ nav ul li a:hover {
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .about-images {
+    align-self: center;
+  }
 }
 footer {
   background: #333;
