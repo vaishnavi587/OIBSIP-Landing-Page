@@ -276,6 +276,27 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+@media (min-width: 768px) {
+  .tour {
+    flex-direction: row;
+  }
+  .left {
+    justify-content: flex-start;
+  }
+
+  .right {
+    justify-content: flex-end;
+  }
+
+  .img-fluid {
+    max-width: 90%;
+    border-radius: 20px;
+  }
+
+  .tour-info {
+    flex: 1;
+  }
+}
 #about {
   padding: 50px 0;
   background-color: #f9f9f9;
