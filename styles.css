@@ -238,7 +238,7 @@ nav ul li a:hover {
 
 .tour {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .left {
@@ -275,30 +275,13 @@ nav ul li a:hover {
   text-decoration: none;
   border-radius: 5px;
 }
-
-@media (min-width: 768px) {
-  .tour {
-    flex-direction: row;
-    margin-bottom: 30px;
-  }
-  .left {
-    justify-content: flex-start;
-  }
-
-  .right {
-    justify-content: flex-end;
-  }
-
-  .img-fluid {
-    max-width: 90%;
-    border-radius: 20px;
-    margin-bottom: 20px;
-  }
-
-  .tour-info {
-    flex: 1;
+@media (max-width: 767.98px) {
+  .row {
+    margin-bottom: 30px; /* Add this line to add space between the rows */
   }
 }
+
+
 #about {
   padding: 50px 0;
   background-color: #f9f9f9;
