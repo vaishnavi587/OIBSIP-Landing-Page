@@ -279,6 +279,7 @@ nav ul li a:hover {
 @media (min-width: 768px) {
   .tour {
     flex-direction: row;
+    margin-bottom: 30px;
   }
   .left {
     justify-content: flex-start;
@@ -291,6 +292,7 @@ nav ul li a:hover {
   .img-fluid {
     max-width: 90%;
     border-radius: 20px;
+    margin-bottom: 20px;
   }
 
   .tour-info {
